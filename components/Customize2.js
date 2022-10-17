@@ -5,11 +5,11 @@ import Close from "../public/close.png";
 
 function Customize2() {
   return (
-    <div>
+    <div id="Card">
       <div className="grid place-items-center mt-10">
         <div className="text-3xl">Pricing</div>
-        <div className="mt-20 w-full max-w-5xl mx-auto grid p-4 sm:flex sm:justify-center sm:gap-20  sm:p-0">
-          <div className="border-4 border-yellow-300 rounded-xl p-4 sm:w-2/5  sm:mt-0 md:w-2/5">
+        <div className="mt-20 w-full max-w-5xl mx-auto  p-4 grid place-content-center sm:flex sm:justify-center sm:gap-20 sm:p-0">
+          <div className="border-4 border-yellow-300 rounded-xl p-4 max-w-xs sm:w-2/5 sm:mt-0">
             <div className="grid place-items-center">
               <div
                 className="bg-yellow-200 h-24 w-24 rounded-full grid place-items-center 
@@ -20,7 +20,11 @@ function Customize2() {
                   <div className="text-4xl">29</div>
                 </div>
               </div>
-              <div className="text-2xl my-6">Basic </div>
+              <div>
+                <div className="w-16 border-yellow-300 border-t-4 absolute ml-20 mt-10"></div>
+                <div className="w-16 border-yellow-300 border-t-4 absolute -ml-[5.75rem]  mt-10"></div>
+                <div className="text-2xl my-6">Basic </div>
+              </div>
               <div className="grid w-full gap-2">
                 <div className="flex w-full justify-between">
                   <div>One Select Template</div>
@@ -40,7 +44,7 @@ function Customize2() {
                     <Image width={15} height={15} src={Close} />
                   </div>
                 </div>
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between  space-x-2">
                   <div>Lifetime Template Updates</div>
                   <div>
                     <Image width={15} height={15} src={Close} />
@@ -54,7 +58,7 @@ function Customize2() {
               </div>
             </div>
           </div>
-          <div className="border-4 border-purple-300 rounded-xl p-4 mt-10 sm:w-2/5  sm:mt-0 md:w-2/5">
+          <div className="border-4 border-purple-300 rounded-xl p-4 max-w-xs mt-10 sm:w-2/5 sm:mt-0">
             <div className="grid place-items-center">
               <div
                 className="bg-purple-200 h-24 w-24 rounded-full grid place-items-center 
@@ -65,7 +69,12 @@ function Customize2() {
                   <div className="text-4xl">89</div>
                 </div>
               </div>
-              <div className="text-2xl my-6">Ultimate </div>
+              <div>
+                <div className="w-16 border-purple-300 border-t-4 absolute ml-24 mt-10"></div>
+                <div className="w-16 border-purple-300 border-t-4 absolute -ml-[4.5rem]  mt-10"></div>
+                <div className="text-2xl my-6">Ultimate </div>
+              </div>
+
               <div className="grid w-full gap-2">
                 <div className="flex w-full justify-between">
                   <div>One Select Template</div>
@@ -85,7 +94,7 @@ function Customize2() {
                     <Image width={15} height={15} src={Correct} />
                   </div>
                 </div>
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between  space-x-2">
                   <div>Lifetime Template Updates</div>
                   <div>
                     <Image width={15} height={15} src={Correct} />

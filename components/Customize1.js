@@ -85,10 +85,10 @@ function Customize1() {
     };
   });
   return (
-    <div>
+    <div id="Chart">
       <div className="grid place-items-center mt-10">
         <div className="text-3xl">Chart</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 px-0 sm:px-20 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 px-0 sm:xl-4 xl:px-20 w-full">
           <div className="px-2 sm:grid sm:place-items-center">
             <canvas ref={canvasElLine} />
           </div>

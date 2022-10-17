@@ -9,14 +9,13 @@ import Star from "../public/star.png";
 
 function Services() {
   return (
-    <div className="mt-10" name="Service">
+    <div className="mt-28" id="Service">
       <div className="grid place-items-center pb-20">
-        <div className="underline decoration-orange-500 underline-offset-[3rem]">
-          Our services
-        </div>
+        <div className="">Our services</div>
         <div className="text-3xl">
           Our <b>Awesome</b> Services
         </div>
+        <div className="w-14 border-orange-500 border-t-4 mt-20 absolute "></div>
       </div>
       <div className="grid grid-rows-6 sm:grid-rows-3 grid-flow-col place-items-center gap-8 max-w-5xl mx-auto">
         <div className="grid place-items-center px-2">
