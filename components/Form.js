@@ -44,7 +44,7 @@ function Form() {
           </div>
           <form className="grid place-items-center">
             <div className="md:flex md:justify-center mb-6 px-2 w-full">
-              <div className="md:w-3/12 ">
+              <div className="md:w-3/12 md:grid md:place-items-center ">
                 <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
                   Full Name
                 </label>
@@ -62,7 +62,7 @@ function Form() {
               </div>
             </div>
             <div className="md:flex md:justify-center mb-6 px-2 w-full">
-              <div className="md:w-3/12">
+              <div className="md:w-3/12 md:grid md:place-items-center ">
                 <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
                   Email
                 </label>
